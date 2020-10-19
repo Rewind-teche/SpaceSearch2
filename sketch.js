@@ -156,8 +156,7 @@ function draw() {
         bot.visible = true
         if(keyCode===LEFT_ARROW )
         {
-         // bot.x = bot.x-10
-          bot.velocityX = 3
+          bot.x = bot.x-10
           bot.changeImage("left", botleft_img)
           bot.scale = 0.2
         }
